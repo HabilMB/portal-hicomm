@@ -1,11 +1,11 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
    <!-- Sidebar - Brand -->
    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('admin') ?>">
-      <div class="sidebar-brand-icon">
-         <i class="fab fa-gofore"></i>
+      <div class="sidebar-brand-icon w-25">
+         <img src="<?= base_url('images\favicon\SuperGraphic-yellow.png') ?>"  width="30px" alt="">
       </div>
-      <div class="sidebar-brand-text mx-1">arsans Admin</div>
+      <div class="sidebar-brand-text mx-1" style="margin: 10px;">Hicomm</div>
    </a>
 
    <!-- Divider -->

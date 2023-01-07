@@ -7,8 +7,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <meta name="description" content="">
       <meta name="author" content="">
-		<link rel="icon" href="<?= base_url("images/favicon/$favicon->photo") ?>" type="image/png">
-		<title><?= $title ?> - Garsans</title>
+	  	<link rel="icon" href="<?= base_url('images\favicon\SuperGraphic-yellow.png') ?>" type="image/png">
+		<title><?= $title ?> - Hicomm</title>
 		<!-- Bootstrap CSS -->
 		<link href="<?= base_url() ?>assets/front/css/bootstrap.css" rel="stylesheet">
 		<link href="<?= base_url() ?>assets/front/vendors/linericon/style.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 		<link href="<?= base_url() ?>assets/front/css/style.css" rel="stylesheet">
 		<link href="css/responsive.css" rel="stylesheet">
 	</head>
-	<body>
+	<body>	
         
 		<!--================ Navigation ================-->
 		<?php $this->load->view('front/layouts/_navbar') ?>

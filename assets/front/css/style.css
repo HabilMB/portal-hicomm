@@ -147,7 +147,7 @@ button:focus {
 
 .main_title2 {
   background: #f9f9ff;
-  border-left: 3px solid #ff1857;
+  border-left: 3px solid #fcde10;
   margin-bottom: 30px;
 }
 
@@ -187,20 +187,20 @@ button:focus {
 .top_menu .float-left a {
   font-size: 12px;
   color: #fff;
-  background: #ff1857;
+  background: #fcde10;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
   padding: 0px 15px;
   line-height: 30px;
   display: inline-block;
-  border: 1px solid #ff1857;
+  border: 1px solid #fcde10;
   margin-top: 6px;
 }
 
 .top_menu .float-left a:hover {
   background: transparent;
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .logo_part {
@@ -233,7 +233,7 @@ button:focus {
 }
 
 .header_social li:hover a {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .main_menu .navbar {
@@ -285,7 +285,7 @@ button:focus {
 }
 
 .main_menu .navbar .nav .nav-item:hover .nav-link, .main_menu .navbar .nav .nav-item.active .nav-link {
-  color: #ff1857;
+  color: #fdce10;
 }
 
 .main_menu .navbar .nav .nav-item.submenu {
@@ -304,7 +304,7 @@ button:focus {
 
 /* Navbar Blog */
 .navbar-blog {
-  background:  #ff1857;
+  background:  #fcde10;
   padding: 10px;
   border-radius: 0px;
   margin-bottom: 0px;
@@ -340,7 +340,7 @@ button:focus {
 }
 
 .navbar-blog .nav-item:hover .nav-link, .navbar-blog .nav-item.active .nav-link {
-  color: #ff1857;
+  color: #fdce10;
 }
 
 .navbar-blog .nav-item.submenu {
@@ -410,7 +410,7 @@ button:focus {
 }
 
 .main_menu .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-  background: #ff1857;
+  background: #fdce10;
   color: #fff;
 }
 
@@ -459,13 +459,13 @@ button:focus {
 .navbar.home .nav-item .nav-link {
   font: 500 12px/50px "Roboto", sans-serif;
   text-transform: uppercase;
-  color: #222222;
+  color: #dddddd;
   padding: 0 12px;
   display: inline-block;
 }
 
 .navbar.home .nav-item:hover .nav-link, .navbar.home .nav-item.active .nav-link {
-  color: #ff1857;
+  color: #fdce10  ;
 }
 
 
@@ -535,7 +535,7 @@ button:focus {
 }
 
 .home_banner_area .carousel .carousel-indicators li.active {
-  background: #ff1857;
+  background: #fcde10;
 }
 
 /* Custom Banner */
@@ -695,7 +695,7 @@ button:focus {
 }
 
 .banner_area .banner_inner .banner_content .page_link a:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 /* End Home Banner Area css
@@ -722,7 +722,7 @@ button:focus {
 }
 
 .causes_slider .owl-dots .owl-dot.active {
-  background: #ff1857;
+  background: #fcde10;
 }
 
 .causes_item {
@@ -745,7 +745,7 @@ button:focus {
 .causes_item .causes_img .c_parcent span {
   width: 70%;
   height: 3px;
-  background: #ff1857;
+  background: #fcde10;
   position: absolute;
   left: 0px;
   bottom: 0px;
@@ -756,7 +756,7 @@ button:focus {
   position: absolute;
   right: -10px;
   bottom: 0px;
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
   padding: 0px 5px;
 }
@@ -775,7 +775,7 @@ button:focus {
 }
 
 .causes_item .causes_text h4:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .causes_item .causes_text p {
@@ -788,11 +788,11 @@ button:focus {
 
 .causes_item .causes_bottom a {
   width: 50%;
-  border: 1px solid #ff1857;
+  border: 1px solid #fcde10;
   text-align: center;
   float: left;
   line-height: 50px;
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -867,7 +867,7 @@ button:focus {
 }
 
 .tags .tag_btn:before {
-  background: #ff1857;
+  background: #fcde10;
 }
 
 .tags .tag_btn + .tag_btn {
@@ -962,7 +962,7 @@ button:focus {
 }
 
 .blog_info .post_tag a.active {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .blog_info .blog_meta li a {
@@ -983,7 +983,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .blog_post img {
@@ -1005,7 +1005,7 @@ button:focus {
 }
 
 .blog_details h2:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .blog_details p {
@@ -1031,7 +1031,7 @@ button:focus {
 .blog_right_sidebar .widget_title {
   font-size: 18px;
   line-height: 25px;
-  background: #ff1857;
+  background: #fcde10;
   text-align: center;
   color: #fff;
   padding: 8px 0px;
@@ -1048,7 +1048,7 @@ button:focus {
   padding-left: 20px;
   border-radius: 45px;
   z-index: 0;
-  background: #ff1857;
+  background: #fcde10;
 }
 
 .blog_right_sidebar .search_widget .input-group .form-control.placeholder {
@@ -1122,7 +1122,7 @@ button:focus {
 }
 
 .blog_right_sidebar .author_widget .social_icon a:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
@@ -1145,7 +1145,7 @@ button:focus {
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
@@ -1181,11 +1181,11 @@ button:focus {
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover {
-  border-color: #ff1857;
+  border-color: #fcde10;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover a {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .blog_right_sidebar .newsletter_widget {
@@ -1243,7 +1243,7 @@ button:focus {
 }
 
 .blog_right_sidebar .newsletter_widget .bbtns {
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
   font-size: 12px;
   line-height: 38px;
@@ -1275,7 +1275,7 @@ button:focus {
 }
 
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
 }
 
@@ -1305,7 +1305,7 @@ button:focus {
 }
 
 .blog-pagination .page-item.active .page-link {
-  background-color: #ff1857;
+  background-color: #fcde10;
   border-color: transparent;
   color: #fff;
 }
@@ -1332,7 +1332,7 @@ button:focus {
 .blog-pagination .page-link:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #ff1857;
+  background-color: #fcde10;
   border-color: #eee;
 }
 
@@ -1567,7 +1567,7 @@ button:focus {
 }
 
 .comments-area .btn-reply:hover {
-  background-color: #ff1857;
+  background-color: #fcde10;
   color: #fff;
 }
 
@@ -1709,7 +1709,7 @@ button:focus {
 }
 
 .main_blog_details .user_details .float-left a:hover {
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
 }
 
@@ -1762,7 +1762,7 @@ button:focus {
 .main_blog_details .blockquote p {
   background: #f9f9ff;
   margin-bottom: 0px;
-  border-left: 2px solid #ff1857;
+  border-left: 2px solid #fcde10;
   padding: 30px;
 }
 
@@ -1794,7 +1794,7 @@ button:focus {
 }
 
 .main_blog_details .news_d_footer .news_socail a:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .main_blog_details .news_d_footer .news_socail a:last-child {
@@ -1934,7 +1934,7 @@ button:focus {
   top: 0;
   font-size: 20px;
   line-height: 24px;
-  color: #ff1857;
+  color: #fcde10;
   font-weight: 600;
 }
 
@@ -2041,7 +2041,7 @@ button:focus {
 .modal-message .modal-dialog .modal-content .modal-header h2 {
   display: block;
   text-align: center;
-  color: #ff1857;
+  color: #fcde10;
   padding-bottom: 10px;
   font-family: "Roboto", sans-serif;
 }
@@ -2077,30 +2077,30 @@ button:focus {
 
 .sample-text-area p b {
   font-weight: bold;
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .sample-text-area p i {
-  color: #ff1857;
+  color: #fcde10;
   font-style: italic;
 }
 
 .sample-text-area p sup {
-  color: #ff1857;
+  color: #fcde10;
   font-style: italic;
 }
 
 .sample-text-area p sub {
-  color: #ff1857;
+  color: #fcde10;
   font-style: italic;
 }
 
 .sample-text-area p del {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .sample-text-area p u {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 /*============== End Elements Area css ================*/
@@ -2163,7 +2163,7 @@ button:focus {
 }
 
 .success {
-  background: #4cd3e3;
+  background: #fcde10;
 }
 
 .success:before {
@@ -2206,12 +2206,12 @@ button:focus {
 
 .success-border {
   background: transparent;
-  border: 1px solid #4cd3e3;
-  color: #4cd3e3;
+  border: 1px solid #fcde10;
+  color: #fcde10;
 }
 
 .success-border:before {
-  background: #4cd3e3;
+  background: #fcde10;
 }
 
 .info-border {
@@ -2246,12 +2246,12 @@ button:focus {
 
 .link-border {
   background: transparent;
-  border: 1px solid #ff1857;
-  color: #ff1857;
+  border: 1px solid #fcde10;
+  color: #fcde10;
 }
 
 .link-border:before {
-  background: #ff1857;
+  background: #fcde10;
 }
 
 .radius {
@@ -2553,25 +2553,25 @@ h6 {
 
 .genric-btn.success {
   color: #fff;
-  background: #4cd3e3;
+  background: #fcde10;
   border: 1px solid transparent;
 }
 
 .genric-btn.success:hover {
-  color: #4cd3e3;
-  border: 1px solid #4cd3e3;
+  color: #fcde10;
+  border: 1px solid #fcde10;
   background: #fff;
 }
 
 .genric-btn.success-border {
-  color: #4cd3e3;
-  border: 1px solid #4cd3e3;
+  color: #fcde10;
+  border: 1px solid #fcde10;
   background: #fff;
 }
 
 .genric-btn.success-border:hover {
   color: #fff;
-  background: #4cd3e3;
+  background: #fcde10;
   border: 1px solid transparent;
 }
 
@@ -2625,25 +2625,25 @@ h6 {
 
 .genric-btn.danger {
   color: #fff;
-  background: #f44a40;
+  background: #fcde10;
   border: 1px solid transparent;
 }
 
 .genric-btn.danger:hover {
-  color: #f44a40;
-  border: 1px solid #f44a40;
+  color: #fcde10;
+  border: 1px solid #fcde10;
   background: #fff;
 }
 
 .genric-btn.danger-border {
-  color: #f44a40;
-  border: 1px solid #f44a40;
+  color: #fcde10;
+  border: 1px solid #fcde10;
   background: #fff;
 }
 
 .genric-btn.danger-border:hover {
   color: #fff;
-  background: #f44a40;
+  background: #fcde10;
   border: 1px solid transparent;
 }
 
@@ -3160,7 +3160,7 @@ h6 {
 }
 
 .confirm-switch input:checked + label:before {
-  background: #4cd3e3;
+  background: #fcde10;
 }
 
 .primary-checkbox {
@@ -3542,7 +3542,7 @@ h6 {
 ============================================================================================ */
 .main_btn {
   display: inline-block;
-  background: #ff1857;
+  background: #fcde10;
   padding: 0px 50px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -3554,7 +3554,7 @@ h6 {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   text-align: center;
-  border: 1px solid #ff1857;
+  border: 1px solid #fcde10;
   cursor: pointer;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
@@ -3563,12 +3563,12 @@ h6 {
 
 .main_btn:hover {
   background: transparent;
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .main_btn2 {
   display: inline-block;
-  background: #ff1857;
+  background: #fcde10;
   padding: 0px 32px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -3580,7 +3580,7 @@ h6 {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   text-align: center;
-  border: 1px solid #ff1857;
+  border: 1px solid #fcde10;
   cursor: pointer;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
@@ -3589,13 +3589,13 @@ h6 {
 
 .main_btn2:hover {
   background: transparent;
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .submit_btn {
   width: auto;
   display: inline-block;
-  background: #ff1857;
+  background: #fcde10;
   padding: 0px 50px;
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -3607,7 +3607,7 @@ h6 {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   text-align: center;
-  border: 1px solid #ff1857;
+  border: 1px solid #fcde10;
   cursor: pointer;
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
@@ -3616,7 +3616,7 @@ h6 {
 
 .submit_btn:hover {
   background: transparent;
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .white_bg_btn {
@@ -3641,13 +3641,13 @@ h6 {
 }
 
 .white_bg_btn:hover {
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
-  border-color: #ff1857;
+  border-color: #fcde10;
 }
 
 .gad_btn {
-  background: #ff1857;
+  background: #343a40;
   color: #fff;
   display: inline-block;
   padding: 0px 20px;
@@ -3694,7 +3694,7 @@ h6 {
 }
 
 .choice_item .choice_text h4:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .choice_item .choice_text p {
@@ -3718,7 +3718,7 @@ h6 {
 }
 
 .choice_text h4:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .choice_text p {
@@ -3822,7 +3822,7 @@ h6 {
 }
 
 .news_widgets .news_slider .owl-dots .owl-dot.active {
-  background: #ff1857;
+  background: #fcde10;
 }
 
 .social_widgets .list li {
@@ -3916,13 +3916,13 @@ h6 {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 30px;
-  border-top: 3px solid #ff1857;
+  border-top: 3px solid #fcde10;
 }
 
 .newsleter_widgets .nsl_inner i {
   width: 60px;
   height: 60px;
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
   line-height: 60px;
   font-size: 24px;
@@ -3986,7 +3986,7 @@ h6 {
 }
 
 .newsleter_widgets .bbtns {
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
   font-size: 12px;
   line-height: 38px;
@@ -4056,7 +4056,7 @@ h6 {
 
 .f_title {
   background: #161a29;
-  border-left: 3px solid #ff1857;
+  border-left: 3px solid #fcde10;
   margin-bottom: 30px;
 }
 
@@ -4091,7 +4091,7 @@ h6 {
 }
 
 .m_news_widgets .m_news .media .media-body h4:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .m_news_widgets .m_news .media .media-body .date {
@@ -4130,7 +4130,7 @@ h6 {
 }
 
 .single-footer-widget ul li a:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .single-footer-widget ul li:last-child {
@@ -4187,7 +4187,7 @@ h6 {
 }
 
 .single-footer-widget .sub-btn {
-  background: #ff1857;
+  background: #fcde10;
   color: #fff;
   font-weight: 300;
   border-radius: 0;
@@ -4231,11 +4231,11 @@ h6 {
 }
 
 .footer-bottom .footer-text i {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .footer-bottom .footer-text a {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .footer-bottom .footer-social {
@@ -4269,8 +4269,8 @@ h6 {
 }
 
 .footer-bottom .footer-social a:nth-child(3):hover {
-  background: #ff1857;
-  border-color: #ff1857;
+  background: #fcde10;
+  border-color: #fcde10;
 }
 
 .footer-bottom .footer-social a:nth-child(4):hover {
@@ -4316,7 +4316,7 @@ h6 {
 }
 
 .f_social_wd .f_social a:hover {
-  color: #ff1857;
+  color: #fcde10;
 }
 
 .f_social_wd .f_social a:last-child {

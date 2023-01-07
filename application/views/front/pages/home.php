@@ -40,7 +40,7 @@
 <!--================ End Home Banner Area =================-->
 
 <!--================ Subscribe Area =================-->
-<div class="card bg-light text-center">
+<!-- <div class="card bg-light text-center">
    <div class="card-body">
       <div class="container">
             <div class="row">
@@ -58,7 +58,7 @@
          </div>
       </div>
    </div>
-</div>
+</div> -->
 <!--================ End Subscribe Area =================-->
 
 <!--================ Choice Area =================-->

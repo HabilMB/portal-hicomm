@@ -44,9 +44,9 @@
             <h2>Social Networks</h2>
          </div>
          <ul class="list">
-            <li><a href="#"><i class="fa fa-facebook"></i>Garsansnews.com<span>Like our page</span></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i>Garsansnews.com<span>Follow Us</span></a></li>
-            <li><a href="#"><i class="fa fa-youtube-play"></i>Garsansnews.com<span>Subscribe</span></a></li>
+            <li><a href="https://www.instagram.com/hicommid/" target="blank"><i class="fa fa-instagram"></i>Hicomm id<span>Follow Us on Instagram </span></a></li>
+            <li><a href="https://twitter.com/hicommid" target="blank"><i class="fa fa-twitter"></i>Hicomm id<span>Follow Us on Twitter</span></a></li>
+            <li><a href="https://www.youtube.com/@highlightcommunication3924" target="blank"><i class="fa fa-youtube-play"></i>Hicomm id<span>Subscribe our Youtube</span></a></li>
          </ul>
       </aside>
 

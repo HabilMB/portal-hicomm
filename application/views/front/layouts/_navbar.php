@@ -5,10 +5,10 @@
    $category = $this->uri->segment(3);
 ?>
 
-<nav class="navbar navbar-light navbar-expand-lg navbar-light bg-light fixed-top home">
+<nav class="navbar navbar-light navbar-expand-lg navbar-dark bg-dark fixed-top home">
    <div class="container">
       <a href="<?= base_url() ?>" class="navbar-brand d-flex w-50 mr-auto">
-      <img src="<?= base_url('images/brand/logo-via-logohub.png') ?>" alt="">
+      <img src="<?= base_url('images/brand/logo-white.png') ?>" width="150px" alt="">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
           <span class="navbar-toggler-icon"></span>
@@ -23,18 +23,18 @@
          </ul> 
          <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item">
-               <a class="nav-link" href="<?= base_url() ?>">
+               <a class="nav-link" href="https://twitter.com/hicommid" target="blank">
                   <i class="fa fa-twitter"></i>
                </a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="<?= base_url() ?>">
+               <a class="nav-link" href="https://www.instagram.com/hicommid/" target="blank">
                   <i class="fa fa-instagram"></i>
                </a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="<?= base_url() ?>">
-                  <i class="fa fa-facebook"></i>
+               <a class="nav-link" href="https://www.youtube.com/@highlightcommunication3924" target="blank">   
+                  <i class="fa fa-youtube-play"></i>
                </a>
             </li>
          </ul>
