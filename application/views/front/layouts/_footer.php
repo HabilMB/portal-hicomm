@@ -28,7 +28,6 @@
                         <h5 style="color: white">Info</h5>
                         <ul class="list">
                               <li><a href="<?= base_url('contact') ?>">About</a></li>
-                              <li><a href="#">Contact</a></li>
                         </ul>
                      </div>										
                   </div>							

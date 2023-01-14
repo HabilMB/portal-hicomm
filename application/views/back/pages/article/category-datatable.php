@@ -66,7 +66,7 @@
    // Add Menu
    function add_category(){
       $('#form')[0].reset();
-      $('.modal-title').text('Tambah Kategori');
+      $('.modal-title').text('Tambah Rubrik');
       $('#modalCategory').modal('show');
    }
 

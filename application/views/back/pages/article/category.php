@@ -1,7 +1,7 @@
 <div class="container">
    <div class="row">
       <div class="col">
-         <h3 class="page-header">Manajemen Kategori</h3>
+         <h3 class="page-header">Manajemen Rubrik</h3>
       </div>
    </div>
 
@@ -24,8 +24,8 @@
       <table id="tableCategory" class="table table-striped table-bordered"  cellspacing="0" width="100%">
          <thead>
          <tr>
-            <th>#</th>
-            <th>Nama Kategory</th>
+            <th>No</th>
+            <th>Nama Rubrik</th>
             <th>Slug</th>
             <th>Aktif</th>
             <th>Action</th>
@@ -44,7 +44,7 @@
    <div class="modal-dialog modal-md" role="document">
       <div class="modal-content">
          <div class="modal-header">
-            <h5 class="modal-title" id="modal-title">Edit Kategori</h5>
+            <h5 class="modal-title" id="modal-title">Edit Rubrik</h5>
          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
          </button>
@@ -55,7 +55,7 @@
                <input type="hidden" name="id" id="id">
 
                <div class="form-group row">
-                  <label for="title" class="col-sm-3 col-form-label">Nama Kategori</label>
+                  <label for="title" class="col-sm-3 col-form-label">Nama Rubrik</label>
                   <div class="col-sm-9">
                   <input type="text" class="form-control" id="category_name" name="category_name">
                   </div>

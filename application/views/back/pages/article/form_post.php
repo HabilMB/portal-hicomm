@@ -101,7 +101,7 @@
                   </div>
 
                   <div class="col">
-                     <label for="category" class="col-form-label"><span class="text-danger">*</span> Kategori</label>
+                     <label for="category" class="col-form-label"><span class="text-danger">*</span>Rubrik</label>
                      <select class="form-control" id="id_category" name="id_category">
                         <option value="">- Pilih -</option>
                         <?php foreach($category as $c) : ?>

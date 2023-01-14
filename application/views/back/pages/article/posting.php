@@ -48,7 +48,7 @@
             <th>F</th>
             <th>C</th>
             <th>P</th>
-            <th>Kategori</th>
+            <th>Rubrik</th>
             <th>Aktif</th>
             <th>Upload</th>
             <th>Action</th>
