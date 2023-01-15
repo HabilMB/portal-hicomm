@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 13 Agu 2020 pada 06.29
--- Versi server: 10.1.38-MariaDB
--- Versi PHP: 7.3.4
+-- Waktu pembuatan: 15 Jan 2023 pada 15.28
+-- Versi server: 10.4.24-MariaDB
+-- Versi PHP: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -60,7 +59,7 @@ CREATE TABLE `banner` (
 --
 
 INSERT INTO `banner` (`id`, `title`, `photo`) VALUES
-(5, 'Home', '3f0edd4a3de4375c41038e0ccf300b3b.jpg');
+(5, 'Home', 'a28742728ca563787720a765609ab402.png');
 
 -- --------------------------------------------------------
 
@@ -80,9 +79,9 @@ CREATE TABLE `category` (
 --
 
 INSERT INTO `category` (`id`, `category_name`, `slug`, `is_active`) VALUES
-(6, 'Technology', 'technology', 'Y'),
-(7, 'Video Game', 'video-game', 'Y'),
-(8, 'Movie', 'movie', 'Y');
+(6, 'Let\'s See', 'let-s-see', 'Y'),
+(7, 'Closer', 'closer', 'Y'),
+(8, 'Hi Foto', 'hi-foto', 'Y');
 
 -- --------------------------------------------------------
 
@@ -101,7 +100,7 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`id`, `contact_name`, `description`) VALUES
-(1, 'About Me', 'Ini adalah project portal berita dan artikel sederhana, yang bertujuan membantu para programmer memahami dalam pembuatan projects serta penguasaan dalam bahasa pemrograman, library dan framework.');
+(1, 'About', 'hicomm adalah organisasi pers independent yang digerakan mahasiswa.\r\norganisasi pers ini tidak dinaungi oleh instansi apapun (termasuk kampus). Memiliki anggota dari berbagai kampus di Indonesia. Berfungsi sebagai wadah pembelajaran untuk mahasiswa khususnya jurnalistik dengan sifat kritis, kreatif, inovatif, dan independen.');
 
 -- --------------------------------------------------------
 
@@ -166,7 +165,7 @@ CREATE TABLE `identity` (
 --
 
 INSERT INTO `identity` (`id`, `web_name`, `web_address`, `meta_description`, `meta_keyword`, `photo`) VALUES
-(1, 'Garsansnews.com', 'Garsansnews.com', 'Latest Indonesia and World News Today, the Latest Most Complete Daily News Regarding Politics, Economy, Travel, Technology, Automotive, ...', 'Garsansnews.com', 'c551664b65bad27d6b56ac71bfdd016f.png');
+(1, 'Hicomm.com', 'Hicomm.com', 'hicomm adalah organisasi pers independent yang digerakan mahasiswa.\r\norganisasi pers ini tidak dinaungi oleh instansi apapun (termasuk kampus).\r\nanggota dari berbagai kampus.\r\nmemiliki sifat kritis, kreatif, inovatif, dan independen.\r\nberfungsi sebagai wadah pembelajaran untuk mahasiswa khususnya jurnalistik.', 'Hicomm.com', 'aa4bea59c2b320e30c9f0fab961c6696.png');
 
 -- --------------------------------------------------------
 
@@ -246,7 +245,8 @@ INSERT INTO `posting` (`id`, `title`, `seo_title`, `content`, `featured`, `choic
 (81, 'The Walking Dead Seasson 10', 'the-walking-dead-seasson-10', '<p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do \r\neiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad \r\nminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip \r\nex ea commodo consequat. Duis aute irure dolor in reprehenderit in \r\nvoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur \r\nsint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\r\n mollit anim id est laborum.\"</p><p>\"Sed\r\n ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \r\ndoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo \r\ninventore veritatis et quasi architecto beatae vitae dicta sunt \r\nexplicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut \r\nodit aut fugit, sed quia consequuntur magni dolores eos qui ratione \r\nvoluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum \r\nquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam \r\neius modi tempora incidunt ut labore et dolore magnam aliquam quaerat \r\nvoluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam \r\ncorporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?\r\n Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse \r\nquam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo \r\nvoluptas nulla pariatur?\"</p>\r\n\r\n<p>\"But I must explain to you how all this mistaken idea of denouncing \r\npleasure and praising pain was born and I will give you a complete \r\naccount of the system, and expound the actual teachings of the great \r\nexplorer of the truth, the master-builder of human happiness. No one \r\nrejects, dislikes, or avoids pleasure itself, because it is pleasure, \r\nbut because those who do not know how to pursue pleasure rationally \r\nencounter consequences that are extremely painful. Nor again is there \r\nanyone who loves or pursues or desires to obtain pain of itself, because\r\n it is pain, but because occasionally circumstances occur in which toil \r\nand pain can procure him some great pleasure. To take a trivial example,\r\n which of us ever undertakes laborious physical exercise, except to \r\nobtain some advantage from it? But who has any right to find fault with a\r\n man who chooses to enjoy a pleasure that has no annoying consequences, \r\nor one who avoids a pain that produces no resultant pleasure?\"</p>', 'N', 'N', 'N', 8, 'd1b6077499ecdfa48be70dee1242f8d6.jpg', 'Y', '2020-02-24'),
 (82, 'Best Horror Game', 'best-horror-game', '<p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do \r\neiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad \r\nminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip \r\nex ea commodo consequat. Duis aute irure dolor in reprehenderit in \r\nvoluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur \r\nsint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\r\n mollit anim id est laborum.\"</p><p>\"Sed\r\n ut perspiciatis unde omnis iste natus error sit voluptatem accusantium \r\ndoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo \r\ninventore veritatis et quasi architecto beatae vitae dicta sunt \r\nexplicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut \r\nodit aut fugit, sed quia consequuntur magni dolores eos qui ratione \r\nvoluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum \r\nquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam \r\neius modi tempora incidunt ut labore et dolore magnam aliquam quaerat \r\nvoluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam \r\ncorporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?\r\n Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse \r\nquam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo \r\nvoluptas nulla pariatur?\"</p>\r\n\r\n<p>\"But I must explain to you how all this mistaken idea of denouncing \r\npleasure and praising pain was born and I will give you a complete \r\naccount of the system, and expound the actual teachings of the great \r\nexplorer of the truth, the master-builder of human happiness. No one \r\nrejects, dislikes, or avoids pleasure itself, because it is pleasure, \r\nbut because those who do not know how to pursue pleasure rationally \r\nencounter consequences that are extremely painful. Nor again is there \r\nanyone who loves or pursues or desires to obtain pain of itself, because\r\n it is pain, but because occasionally circumstances occur in which toil \r\nand pain can procure him some great pleasure. To take a trivial example,\r\n which of us ever undertakes laborious physical exercise, except to \r\nobtain some advantage from it? But who has any right to find fault with a\r\n man who chooses to enjoy a pleasure that has no annoying consequences, \r\nor one who avoids a pain that produces no resultant pleasure?\"</p>', 'N', 'N', 'N', 7, '9efd7a1bb33824c1552ede8084361631.png', 'Y', '2020-02-24'),
 (86, 'The Litle Prince', 'the-litle-prince', '<p><strong xss=removed>Lorem Ipsum</strong><span xss=removed> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span><br></p>', 'N', 'N', 'N', 8, '4142a16b7964879c389bec60b61c685f.jpg', 'Y', '2020-08-13'),
-(87, 'Assasin\'s Creed Valhalla', 'assasin-s-creed-valhalla', '<p><strong xss=removed>Lorem Ipsum</strong><span xss=removed> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span><br></p>', 'N', 'N', 'N', 7, '2dbd28ddf26159d8c71232097b85136d.jpg', 'Y', '2020-08-13');
+(87, 'Assasin\'s Creed Valhalla', 'assasin-s-creed-valhalla', '<p><strong xss=removed>Lorem Ipsum</strong><span xss=removed> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</span><br></p>', 'N', 'N', 'N', 7, '2dbd28ddf26159d8c71232097b85136d.jpg', 'Y', '2020-08-13'),
+(88, 'Sisi Baik Lula Da Silva, di Balik Kerusuhan Brasil', 'sisi-baik-lula-da-silva-di-balik-kerusuhan-brasil', '<p>Belakangan, ramai diperbincangkan lantaran terjadi kerusuhan di ibu kota Brasil, Brasilia pada Minggu, 8 Januari 2023. Kerusuhan dipicu karena kekalahan Jair Bolsonaro dalam pemilu terhadap Lula Da Silva membuat ketidakpuasan pendukung Jair Bolsonaro sehingga membuat kekacauan yang terjadi di pusat pemerintahan seperti Gedung Kongres, Mahkama Agung, sampai Istana Negara Namun, dibalik kerusuhan yang terjadi di ibu kota Brasil tersebut, tidak dapat dipisahkan dari usaha presiden terdahulu Lula Da Silva dalam membangun dan menangani permasalahan yang ada di Brasil. Lalu, apa saja kebijakan presiden Lula Da Silva dalam mengatasi permasalahan yang ada di negaranya tersebut? Well let\'s see...</p>\r\n\r\n<p>Dilansir dari Katadata.co.id, presiden Lula Da Silva selama menjabat dari 2003-2011 berhasil membawa keluar Brasil dari kemiskinan dan meningkatkan ekonomi dengan memperkenalkan program cash transfer bagi keluarga miskin Brasi atau disebut \"bolsa familia\". Program ini merupakan*program bantuan dengan mentransfer dana langsung tunai yang diberikan kepada masyarakat miskin dengan beberapa catatan yaitu memastikan anaknya bersekolah milik peherintah hadir aäsensi tidak boleh lebih dari 15 harus hadir dalam program kesehatan rutin. </p>', 'Y', 'N', 'Y', 6, '27a06bfa525ad3655986554c464743ce.jpeg', 'Y', '2023-01-15');
 
 -- --------------------------------------------------------
 
@@ -268,14 +268,15 @@ CREATE TABLE `submenu` (
 
 INSERT INTO `submenu` (`id`, `id_menu`, `sub_title`, `sub_url`, `is_active`) VALUES
 (1, 1, 'Identitas Web', 'admin/identity', 'Y'),
-(2, 1, 'Kontak', 'admin/contact', 'Y'),
-(3, 2, 'Menu Utama', 'admin/menu', 'Y'),
+(2, 1, 'tes edit', 'tes', 'N'),
+(3, 2, 'Menu Utama', 'admin/menu', 'N'),
 (4, 2, 'Sub Menu', 'admin/submenu', 'Y'),
-(5, 3, 'Kategori', 'admin/category', 'Y'),
+(5, 3, 'Rubrik', 'admin/category', 'N'),
 (6, 3, 'Posting', 'admin/posting', 'Y'),
 (7, 4, 'Album', 'admin/album', 'N'),
 (8, 4, 'Gallery Foto', 'admin/gallery', 'N'),
-(10, 4, 'Banner', 'admin/banner', 'Y');
+(10, 4, 'Banner', 'admin/banner', 'Y'),
+(11, 1, 'Kontak', 'admin/contact', 'Y');
 
 -- --------------------------------------------------------
 
@@ -310,7 +311,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `ip_address`, `username`, `password`, `email`, `activation_selector`, `activation_code`, `forgotten_password_selector`, `forgotten_password_code`, `forgotten_password_time`, `remember_selector`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`) VALUES
-(1, '127.0.0.1', 'administrator', '$2y$12$QUM2OeQCZclQqJIhZKKMt.Aq8dA3Y7eIzjtXsyr.xuE0kDjfj8SLS', 'admin@admin.com', NULL, '', NULL, NULL, NULL, NULL, NULL, 1268889823, 1597292859, 1, 'Garsans', 'News', NULL, '0123456789');
+(1, '127.0.0.1', 'administrator', '$2y$12$L93yVk17IIOLVngVvC6rAeVdbnKWIJoOPyesia0iDgEjqZSNlH8O.', 'hicomm@gmail.com', NULL, '', NULL, NULL, NULL, NULL, NULL, 1268889823, 1673792479, 1, 'Editor', 'Hicomm', NULL, '0123456789');
 
 -- --------------------------------------------------------
 
@@ -329,8 +330,8 @@ CREATE TABLE `users_groups` (
 --
 
 INSERT INTO `users_groups` (`id`, `user_id`, `group_id`) VALUES
-(37, 1, 1),
-(38, 1, 2);
+(43, 1, 1),
+(44, 1, 2);
 
 --
 -- Indexes for dumped tables
@@ -441,7 +442,7 @@ ALTER TABLE `banner`
 -- AUTO_INCREMENT untuk tabel `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT untuk tabel `contact`
@@ -471,7 +472,7 @@ ALTER TABLE `identity`
 -- AUTO_INCREMENT untuk tabel `login_attempts`
 --
 ALTER TABLE `login_attempts`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT untuk tabel `menu`
@@ -483,13 +484,13 @@ ALTER TABLE `menu`
 -- AUTO_INCREMENT untuk tabel `posting`
 --
 ALTER TABLE `posting`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=88;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=89;
 
 --
 -- AUTO_INCREMENT untuk tabel `submenu`
 --
 ALTER TABLE `submenu`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
@@ -501,7 +502,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `users_groups`
 --
 ALTER TABLE `users_groups`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=45;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
